@@ -33,10 +33,5 @@ class ieeedb_plug(PluginBase):
             prompt = "Invalid input"
         print prompt.__dict__
 
-            
-            
-            
-            
-            
-                            
+                          
         
