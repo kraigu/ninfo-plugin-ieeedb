@@ -1,4 +1,4 @@
-from setup tools import setup, find_packages
+from setuptools import setup, find_packages
 
 setup(name='ninfo-plugin-ieeedb',
       version='0.0.1',
@@ -7,7 +7,7 @@ setup(name='ninfo-plugin-ieeedb',
       include_package_data = True, 
       install_requires = [
           "ninfo>=0.1.11",
-          "ouilookup",
+          "psycopg2",
       ],
       entry_points = {
           'ninfo.plugin': [
